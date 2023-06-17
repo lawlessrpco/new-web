@@ -1,0 +1,18 @@
+.section {
+    position: relative;
+    margin: 0 15vw;
+}
+
+.section__content--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+.section--top {
+    z-index: 100;
+    margin-top: -6rem;
+}
