@@ -5,7 +5,11 @@ title: Home
 
 {% include "partials/header.njk" %}
 
-{% Card title="Helo, world", desc="Hello, num 2", img="/assets/img/darkrp.jpg" %}
-
-<h1>Hello, world</h1>
-<p>Hello, world</p>
+<div class="section section--top">
+    <h1 class="section__title">Servers</h1>
+    <div class="section__content--flex">
+        {% for server in servers %}
+            {% Card title=server.name, desc="0 / 128 • " + server.map, img=server.image, link="/" + server.slug %}
+        {% endfor %}
+    </div>
+</div>
