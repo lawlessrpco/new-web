@@ -1,0 +1,42 @@
+nav {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0.15rem 0.75rem;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    height: 4rem;
+}
+
+.navbar--sticky {
+    z-index: 1000;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbr__brand__image {
+    width: 5rem;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar__link {
+    color: white;
+    text-underline-offset: 2px;
+    text-decoration: none;
+    transition: text-underline-offset 0.15s
+}
+
+.navbar__link:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}

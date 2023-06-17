@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "head.njk" %}
+
+    {% block head %}
+    {% endblock %}
+</head>
+<body data-bs-theme="dark">
+    {% block content %}
+        {{ content | safe }}
+    {% endblock %}
+</body>
+</html>

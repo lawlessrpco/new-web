@@ -1,0 +1,9 @@
+[
+    {
+        "name": "DarkRP",
+        "connection": "localhost",
+        "map": "rp_downtown_modern",
+        "manager": "@liondadev",
+        "slug": "darkrp"
+    }
+]

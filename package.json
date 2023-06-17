@@ -1,0 +1,26 @@
+{
+    "name": "lrp-web-rewrite",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "eleventy --serve",
+        "build": "eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lawlessrpco/new-web.git"
+    },
+    "keywords": [],
+    "author": "liondadev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lawlessrpco/new-web/issues"
+    },
+    "homepage": "https://github.com/lawlessrpco/new-web#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1",
+        "common-tags": "^1.8.2",
+        "prettier": "^2.8.8"
+    }
+}
