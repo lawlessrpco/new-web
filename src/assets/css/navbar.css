@@ -33,11 +33,11 @@ nav {
     color: white;
     text-underline-offset: 2px;
     text-decoration: none;
-    transition: text-underline-offset 0.15s
+    transition: text-underline-offset 0.15s;
 }
 
 .navbar__link:hover {
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     color: gold;
 }

@@ -1,8 +1,11 @@
+/* The overall section */
 .section {
     position: relative;
     margin: 0 15vw;
+    margin-top: 3rem;
 }
 
+/* The content inside the section, but with some flexy things */
 .section__content--flex {
     display: flex;
     align-items: center;
@@ -11,7 +14,26 @@
     flex-wrap: wrap;
 }
 
+/* A nice 2x2 grid of elements for section content */
+.section__content--grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* The title of the section */
+.section__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Applies negative margin to the top of the section, nice for the top of pages */
 .section--top {
     z-index: 100;
     margin-top: -6rem;
+}
+
+/* A nice spacer between elements */
+.sectionspacer {
+    height: 2rem;
 }

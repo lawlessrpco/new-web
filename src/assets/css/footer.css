@@ -1,0 +1,10 @@
+.footer {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.25)
+}

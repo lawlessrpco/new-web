@@ -1,0 +1,26 @@
+{% extends "layouts/base.njk" %}
+
+
+{% block head %}
+<style>
+    .rules {
+        margin-top: 2rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    {% include "partials/navbar.njk" %}
+
+    <main>
+        <div class="section">
+            <h1 class="section__title">{{title}}</h1>
+            <hr>
+            <div class="rules">
+                {{ content | safe }}
+            </div>
+        </div>
+    </main>
+
+    {% include "partials/footer.njk" %}
+{% endblock %}

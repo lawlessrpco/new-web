@@ -1,0 +1,36 @@
+/* Disable some link styles */
+.socialcard__link {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+/* The things for the actial card */
+.socialcard {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 1px solid #5B5B5B;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: border 0.15s, color 0.15s;
+}
+
+.socialcard:hover {
+    border: 2px solid gold;
+    color: gold;
+}
+
+.socialcard__iconcontainer {
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialcard__icon {
+    width: 3rem;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Discord",
+        "desc": ".gg/69isstillfunny420",
+        "link": "discord.gg/fuckinghellman",
+        "icon": "fa-brands fa-discord"
+    },
+    {
+        "name": "Steam Group",
+        "desc": "/cum",
+        "link": "steamcommunity.com/i/forgor/the/url",
+        "icon": "fa-brands fa-steam"
+    },
+    {
+        "name": "Github",
+        "desc": "@lawlessrpco",
+        "link": "https://www.github.com/lawlessrpco",
+        "icon": "fa-brands fa-github"
+    }
+]
