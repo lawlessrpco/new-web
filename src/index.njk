@@ -9,7 +9,7 @@ title: Home
     <h1 class="section__title">Servers</h1>
     <div class="section__content--flex">
         {% for server in servers %}
-            {% Card title=server.name, desc="0 / 128 • " + server.map, img=server.image, link="/" + server.slug %}
+            {% Card title=server.name, desc="0 / 128 • " + server.map, img=server.image, link="/" + server.slug + "/rules" %}
         {% endfor %}
     </div>
 </div>
@@ -19,7 +19,7 @@ title: Home
     <h1 class="section__title">Community</h1>
     <div class="section__content--grid">
         {% for social in socials %}
-            {% SocialCard title=social.name, desc=social.desc, icon=social.icon, link=social.link %}
+            {% SocialCard title=social.name, desc=social.desc, icon=social.icon, link=social.link + "/rules" %}
         {% endfor %}
     </div>
 </div>
