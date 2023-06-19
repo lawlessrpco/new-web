@@ -39,5 +39,5 @@ nav {
 .navbar__link:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
-    color: gold;
+    color: var(--primary);
 }

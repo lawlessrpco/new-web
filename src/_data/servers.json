@@ -1,7 +1,7 @@
 [
     {
         "name": "DarkRP",
-        "connection": "localhost",
+        "connection": "play.lawlessrp.co",
         "map": "rp_downtown_modern",
         "manager": "@liondadev",
         "slug": "darkrp",

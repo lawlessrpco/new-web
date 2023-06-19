@@ -23,7 +23,7 @@
 }
 
 .card__container:hover {
-    border: 1px solid gold;
+    border: 1px solid var(--primary);
     cursor: pointer;
 }
 

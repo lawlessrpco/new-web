@@ -24,8 +24,8 @@
 }
 
 .socialcard:hover {
-    border: 1px solid gold;
-    color: gold;
+    border: 1px solid var(--primary);
+    color: var(--primary);
 }
 
 .socialcard__iconcontainer {
