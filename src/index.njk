@@ -5,17 +5,17 @@ title: Home
 
 {% include "partials/header.njk" %}
 
-<div class="section section--top">
+<div class="section section--top" id="servers">
     <h1 class="section__title">Servers</h1>
     <div class="section__content--flex">
         {% for server in servers %}
-            {% Card title=server.name, desc="unknown / 128 • " + server.map, img=server.image, link="/" + server.slug + "/rules" %}
+            {% Card title=server.name, desc=server.connection + " • " + server.map, img=server.image, link="/" + server.slug + "/rules" %}
         {% endfor %}
     </div>
 </div>
 
 
-<div class="section">
+<div class="section" id="community">
     <h1 class="section__title">Community</h1>
     <div class="section__content--grid">
         {% for social in socials %}

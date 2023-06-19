@@ -11,12 +11,19 @@
     pointer-events: none;
 }
 
+@media screen and (max-width: 512px) {
+    .card__container {
+        width: 65vw;
+        height: 13rem;
+    }
+}
+
 .card__link {
     color: white;
 }
 
 .card__container:hover {
-    border: 2px solid gold;
+    border: 1px solid gold;
     cursor: pointer;
 }
 
