@@ -7,8 +7,7 @@ RUN npm i
 # builds the things, outputs to /www
 RUN npm run build
 
-FROM nginx:latest
-WORKDIR /use/share/nginx/html
-COPY --from=builder /var/www/app/www ./
-RUN ls -a
+FROM aikain/simplehttpserver:0.1
+COPY --from=builder /var/www/app/www /var/www
+
 EXPOSE 80
